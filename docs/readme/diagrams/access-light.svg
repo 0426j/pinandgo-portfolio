@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 440" width="1040" height="440" role="img" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title>접근 권한 3층</title>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+</defs>
+<rect x="20" y="40" width="320" height="270" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.6"/>
+<text x="34" y="104.0" font-size="15" font-weight="700" fill="#1e3a8a" text-anchor="start">직원 계정 (매장당 1개)</text>
+<text x="34" y="122.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start"></text>
+<text x="34" y="139.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">로그인 = 소속 매장 1곳</text>
+<text x="34" y="156.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">읽기: RLS로 그 매장 행만</text>
+<text x="34" y="173.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">쓰기: SQL 함수로만</text>
+<text x="34" y="190.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">(표에 직접 쓰기 차단)</text>
+<text x="34" y="207.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start"></text>
+<text x="34" y="224.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">할 수 있는 것</text>
+<text x="34" y="241.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">스캔 · 조회 · 등록 · 이동</text>
+<text x="34" y="258.0" font-size="13" fill="#1e3a8a" fill-opacity="0.85" text-anchor="start">복사 · 삭제 · 복구 · 취소</text>
+<rect x="360" y="40" width="320" height="270" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.6"/>
+<text x="374" y="104.0" font-size="15" font-weight="700" fill="#78350f" text-anchor="start">관리자모드 (비밀번호)</text>
+<text x="374" y="122.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start"></text>
+<text x="374" y="139.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">서버가 해시로 확인</text>
+<text x="374" y="156.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">관리자 함수를 부를 때마다 검사</text>
+<text x="374" y="173.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">틀리면 1초 뒤 거부</text>
+<text x="374" y="190.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start"></text>
+<text x="374" y="207.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">추가로 할 수 있는 것</text>
+<text x="374" y="224.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">영구삭제 · 이력 선택 롤백</text>
+<text x="374" y="241.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">도면 저장 · 로케 생성 · 백업</text>
+<text x="374" y="258.0" font-size="13" fill="#78350f" fill-opacity="0.85" text-anchor="start">10분 무조작이면 일반모드 복귀</text>
+<rect x="700" y="40" width="320" height="270" rx="10" fill="#f3e8ff" stroke="#9333ea" stroke-width="1.6"/>
+<text x="714" y="104.0" font-size="15" font-weight="700" fill="#581c87" text-anchor="start">개발자 계정 (별도)</text>
+<text x="714" y="122.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start"></text>
+<text x="714" y="139.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">개발자 키 + 요청 머리글로</text>
+<text x="714" y="156.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">고른 매장만 열람</text>
+<text x="714" y="173.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">기본 읽기 전용 트랜잭션</text>
+<text x="714" y="190.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">쓰기 모드에서도 관리자</text>
+<text x="714" y="207.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">비밀번호 동작은 거부</text>
+<text x="714" y="224.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start"></text>
+<text x="714" y="241.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">모든 열람·개입은 점검 기록</text>
+<text x="714" y="258.0" font-size="13" fill="#581c87" fill-opacity="0.85" text-anchor="start">→ 매장 관리자가 확인</text>
+<path d="M340,175 L360,175" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M680,175 L700,175" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="20" y="340" width="1000" height="70" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="520.0" y="363.5" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">공통 바탕</text>
+<text x="520.0" y="380.5" font-size="12.5" fill="#1e293b" fill-opacity="0.85" text-anchor="middle">모든 표에 store_id + RLS · 함수가 로그인 정보에서 매장을 판별(화면이 보내는 매장 값은 믿지 않음)</text>
+<text x="520.0" y="397.0" font-size="12.5" fill="#1e293b" fill-opacity="0.85" text-anchor="middle">서비스 롤 키는 서버 스크립트 전용이고 화면 코드에 없음 · 백업에서 관리자 비밀번호 제외</text>
+</svg>

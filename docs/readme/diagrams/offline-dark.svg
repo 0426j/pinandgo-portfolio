@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 500" width="1040" height="500" role="img" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title>오프라인 대기열</title>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
+</defs>
+<rect x="20" y="40" width="200" height="56" rx="10" fill="#172554" stroke="#60a5fa" stroke-width="1.6"/>
+<text x="120.0" y="65.5" font-size="15" font-weight="700" fill="#dbeafe" text-anchor="middle">변경 요청</text>
+<text x="120.0" y="83.5" font-size="12" fill="#dbeafe" fill-opacity="0.85" text-anchor="middle">등록 · 이동 · 복사 · 삭제 · 복구</text>
+<polygon points="320,26.0 390.0,68 320,110.0 250.0,68" fill="#1e293b" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="320" y="64.5" font-size="13.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">연결</text>
+<text x="320" y="81.0" font-size="13.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">있음?</text>
+<path d="M220,68 L250,68" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="440" y="40" width="170" height="56" rx="10" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.6"/>
+<text x="525.0" y="65.2" font-size="15" font-weight="700" fill="#e0e7ff" text-anchor="middle">서버 함수 호출</text>
+<text x="525.0" y="83.2" font-size="12.5" fill="#e0e7ff" fill-opacity="0.85" text-anchor="middle">즉시 반영</text>
+<path d="M390,68 L440,68" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="415" y="60" font-size="12" fill="#94a3b8" text-anchor="middle" stroke="#0d1117" stroke-width="4" paint-order="stroke" stroke-linejoin="round">예</text>
+<rect x="640" y="40" width="150" height="56" rx="10" fill="#052e16" stroke="#4ade80" stroke-width="1.6"/>
+<text x="715.0" y="65.2" font-size="15" font-weight="700" fill="#dcfce7" text-anchor="middle">반영 완료</text>
+<text x="715.0" y="83.2" font-size="12.5" fill="#dcfce7" fill-opacity="0.85" text-anchor="middle">이력 기록</text>
+<path d="M610,68 L640,68" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M320,110 L320,150 L105,150 L105,210" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="210" y="142" font-size="12" fill="#94a3b8" text-anchor="middle" stroke="#0d1117" stroke-width="4" paint-order="stroke" stroke-linejoin="round">아니오(오프라인)</text>
+<rect x="20" y="210" width="170" height="64" rx="10" fill="#172554" stroke="#60a5fa" stroke-width="1.6"/>
+<text x="105.0" y="239.2" font-size="15" font-weight="700" fill="#dbeafe" text-anchor="middle">사전 검사</text>
+<text x="105.0" y="257.2" font-size="12.5" fill="#dbeafe" fill-opacity="0.85" text-anchor="middle">서버와 같은 규칙으로</text>
+<polygon points="290,197.0 355.0,242 290,287.0 225.0,242" fill="#1e293b" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="290" y="238.5" font-size="13.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">명백한</text>
+<text x="290" y="255.0" font-size="13.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">충돌?</text>
+<path d="M190,242 L225,242" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="400" y="210" width="140" height="64" rx="10" fill="#172554" stroke="#60a5fa" stroke-width="1.6"/>
+<text x="470.0" y="239.2" font-size="15" font-weight="700" fill="#dbeafe" text-anchor="middle">대기열 저장</text>
+<text x="470.0" y="257.2" font-size="12.5" fill="#dbeafe" fill-opacity="0.85" text-anchor="middle">기기 안에 보관</text>
+<path d="M355,242 L400,242" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="378" y="234" font-size="12" fill="#94a3b8" text-anchor="middle" stroke="#0d1117" stroke-width="4" paint-order="stroke" stroke-linejoin="round">아니오</text>
+<rect x="580" y="210" width="160" height="64" rx="10" fill="#172554" stroke="#60a5fa" stroke-width="1.6"/>
+<text x="660.0" y="239.2" font-size="15" font-weight="700" fill="#dbeafe" text-anchor="middle">연결 복귀</text>
+<text x="660.0" y="257.2" font-size="12.5" fill="#dbeafe" fill-opacity="0.85" text-anchor="middle">쌓인 순서대로 전송</text>
+<path d="M540,242 L580,242" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<polygon points="840,197.0 905.0,242 840,287.0 775.0,242" fill="#1e293b" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="840" y="238.5" font-size="13.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">서버가</text>
+<text x="840" y="255.0" font-size="13.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">거부?</text>
+<path d="M740,242 L775,242" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="940" y="210" width="90" height="64" rx="10" fill="#052e16" stroke="#4ade80" stroke-width="1.6"/>
+<text x="985.0" y="239.2" font-size="15" font-weight="700" fill="#dcfce7" text-anchor="middle">반영</text>
+<text x="985.0" y="257.2" font-size="12.5" fill="#dcfce7" fill-opacity="0.85" text-anchor="middle">이력 기록</text>
+<path d="M905,242 L940,242" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="922" y="232" font-size="12" fill="#94a3b8" text-anchor="middle" stroke="#0d1117" stroke-width="4" paint-order="stroke" stroke-linejoin="round">아니오</text>
+<rect x="200" y="350" width="180" height="64" rx="10" fill="#450a0a" stroke="#f87171" stroke-width="1.6"/>
+<text x="290.0" y="379.2" font-size="15" font-weight="700" fill="#fee2e2" text-anchor="middle">바로 안내</text>
+<text x="290.0" y="397.2" font-size="12.5" fill="#fee2e2" fill-opacity="0.85" text-anchor="middle">저장하지 않음</text>
+<path d="M290,287 L290,350" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="300" y="322" font-size="12" fill="#94a3b8" text-anchor="start" stroke="#0d1117" stroke-width="4" paint-order="stroke" stroke-linejoin="round">예</text>
+<rect x="730" y="350" width="220" height="64" rx="10" fill="#450a0a" stroke="#f87171" stroke-width="1.6"/>
+<text x="840.0" y="379.5" font-size="15" font-weight="700" fill="#fee2e2" text-anchor="middle">실패로 표시</text>
+<text x="840.0" y="397.5" font-size="12" fill="#fee2e2" fill-opacity="0.85" text-anchor="middle">확인하고 지우기 · 다시 시도</text>
+<path d="M840,287 L840,350" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="850" y="322" font-size="12" fill="#94a3b8" text-anchor="start" stroke="#0d1117" stroke-width="4" paint-order="stroke" stroke-linejoin="round">예</text>
+<rect x="20" y="440" width="1000" height="46" rx="10" fill="#1e293b" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="520.0" y="459.8" font-size="14" font-weight="700" fill="#e2e8f0" text-anchor="middle">읽기</text>
+<text x="520.0" y="476.8" font-size="12.5" fill="#e2e8f0" fill-opacity="0.85" text-anchor="middle">마지막 동기화 스냅숏(모든 로케 코드·상품·자리)으로 조회 · 온라인이면 5분 지난 데이터는 다시 받음</text>
+<text x="410" y="340" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="start">조용히 덮어쓰지 않음</text>
+<text x="410" y="358" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="start">다른 기기가 먼저 바꾼 건만 실패로 표시</text>
+<text x="410" y="375" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="start">나머지는 계속 전송</text>
+</svg>
